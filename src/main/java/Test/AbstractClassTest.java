@@ -50,9 +50,9 @@ class AbstractClassTestExt extends AbstractClassTest {
         return 111;
     }
 
-//    protected int nonAbstractMethod() {
-//        return 1111;
-//    }
+    protected int nonAbstractMethod() {
+        return 1111;
+    }
 
 
     public static void main(String []args) {
@@ -60,16 +60,6 @@ class AbstractClassTestExt extends AbstractClassTest {
         System.out.println(abstractClassTest.abstractMethod());
         System.out.println(abstractClassTest.abstractMethod1());
         System.out.println(abstractClassTest.nonAbstractMethod());
-
-        String str = "strstr";
-
-        str = str.trim();
-        if(str.contains(" "))
-            System.out.println(true);
-        else
-            System.out.println(false);
-
-        System.out.println(str);
 
     }
 }
