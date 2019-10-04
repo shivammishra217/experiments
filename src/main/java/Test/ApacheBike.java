@@ -33,11 +33,11 @@ public class ApacheBike extends Bike{
         //bike.speed("100", 50);
 
 
-        //ApacheBike's speedWithSameArgumentType(10,10); override Bike's speedWithSameArgumentType(10,10) method
-        // of because both methods have same method signature , that is , void speedWithSameArgumentType(int,int).
-        //But
+        //ApacheBike's speedWithSameArgumentType(10,10); overrides Bike's speedWithSameArgumentType(10,10) method
+        // because both methods have same method signature , that is , void speedWithSameArgumentType(int,int).
+        // But
         // ApacheBike's speed("10",10); does not override Bike's speed(10,"10") method
-        //  of because both methods have different method signature , that is , void speed(String,int) and void speed(int,String).
+        // because both methods have different method signature , that is , void speed(String,int) and void speed(int,String).
 
 
         bike.speedWithSameArgumentType(10,10);
